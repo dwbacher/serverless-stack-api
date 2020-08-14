@@ -1,0 +1,56 @@
+============================================================================
+IAM
+============================================================================
+	Users
+	-----
+		Name: scim-dev-dave
+		Access Key ID: AKIA3GN6NPVRAJ5TJ2YB
+		Secret Access Key: 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
+
+============================================================================
+Cognito
+============================================================================
+	Domain name: https://dwb-notes.auth.us-east-1.amazoncognito.com
+	Region: us-east-1
+
+	User Pools
+	----------
+		Name: notes-user-pool
+		ID: us-east-1_Qd4qTkxrZ
+		Users:
+			email: admin@example.com
+			username: d900cdcc-969a-47d9-a68a-57dec0cdb737
+			password: Passw0rd!
+			---
+			email: david.bacher@alchemysystems.com
+			username: d900cdcc-969a-47d9-a68a-57dec0cdb737
+			password: ******
+
+	App clients
+	-----------
+		Client Name: notes-app
+		Client ID: 22bgrvbei2i2k6ls610f7miep
+
+	Identity Pools
+	--------------
+		Name: notes identity pool
+		ID: us-east-1:178b53b4-6cfc-41cb-88ac-bc4c286912b2
+
+============================================================================
+S3
+============================================================================
+	Buckets
+	-------
+		Name: dwb-notes-app-uploads
+
+============================================================================
+API gateway
+============================================================================
+	Region: us-east-1
+
+	APIs
+	----
+		Name: prod-notes-app-api
+		ID: jpsxaai075
+		Invoke URL:  https://jpsxaai075.execute-api.us-east-1.amazonaws.com/prod
+		Path Template: /notes
