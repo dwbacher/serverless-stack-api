@@ -5,7 +5,6 @@ IAM
 	-----
 		Name: scim-dev-dave
 		Access Key ID: AKIA3GN6NPVRAJ5TJ2YB
-		Secret Access Key: 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
 
 ============================================================================
 Cognito
