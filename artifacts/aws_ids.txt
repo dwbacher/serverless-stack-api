@@ -36,6 +36,14 @@ Cognito
 		ID: us-east-1:178b53b4-6cfc-41cb-88ac-bc4c286912b2
 
 ============================================================================
+DynamoDB
+============================================================================
+	Tables
+	------
+	  Name: notes
+		Fields: noteId(PK), userId
+
+============================================================================
 S3
 ============================================================================
 	Buckets
@@ -53,3 +61,17 @@ API gateway
 		ID: jpsxaai075
 		Invoke URL:  https://jpsxaai075.execute-api.us-east-1.amazonaws.com/prod
 		Path Template: /notes
+
+============================================================================
+Lambda
+============================================================================
+	Applications
+	------------
+		Name: notes-app-api-prod
+		Functions:
+			notes-app-api-prod-create
+			notes-app-api-prod-delete
+			notes-app-api-prod-update
+			notes-app-api-prod-get
+			notes-app-api-prod-list
+			notes-app-api-prod-billing
