@@ -4,7 +4,6 @@ IAM
 	Users
 	-----
 		Name: scim-dev-dave
-		Access Key ID: AKIA3GN6NPVRAJ5TJ2YB
 
 ============================================================================
 Cognito
